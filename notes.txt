@@ -1,0 +1,4 @@
+Things to add
+    switch the team profiles to inline directly down page
+    make the information on them modals or actually profiles that you can click on and then go back from
+    
