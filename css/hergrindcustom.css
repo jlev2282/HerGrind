@@ -1,0 +1,48 @@
+.card {
+    max-height: 110%;
+}
+.customrow {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+  }
+  
+  /* Create four equal columns that sits next to each other */
+  .customcolumn {
+    flex: 33%;
+    max-width: 33%;
+    padding: 0 4px;
+  }
+  
+  .customcolumn img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+  }
+  
+  /* Responsive layout - makes a two column-layout instead of four columns */
+  @media screen and (max-width: 800px) {
+    .customcolumn {
+      flex: 50%;
+      max-width: 50%;
+    }
+  }
+  
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .customcolumn {
+      flex: 100%;
+      max-width: 100%;
+    }
+  }
+
+body {
+    background-color: black;
+}
+.responsive {
+    max-width: 100%;
+    height: auto;
+}
+.team-img {
+  border-radius: 50%;
+}
